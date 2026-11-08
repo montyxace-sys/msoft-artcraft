@@ -119,6 +119,7 @@ h3 { font-size: 18px; margin: 12px 0 6px; font-weight: 700; }
   background: linear-gradient(135deg, rgba(91,140,255,.18), rgba(155,107,255,.18));
   border: 1px solid rgba(91,140,255,.22); color: var(--text);
   display: grid; place-items: center; font-weight: 800; font-size: 13px;
+  object-fit: contain;
 }
 .app p { color: var(--muted); font-size: 15px; line-height: 1.5; }
 .app-link { color: var(--accent); text-decoration: none; font-size: 14px; font-weight: 600; }
