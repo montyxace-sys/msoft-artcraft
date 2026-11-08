@@ -4,5 +4,5 @@
   </defs>
   <path d="M38 8 L82 8 L108 34 L108 86 L82 112 L38 112 L12 86 L12 34 Z" fill="#0a0c16" stroke="#1e335d" stroke-width="2"/>
   <path d="M24 104 L104 18" stroke="url(#g)" stroke-width="10" stroke-linecap="square"/>
-  <text x="58" y="74" text-anchor="middle" font-family="Inter,Arial" font-size="54" font-weight="900" fill="#fff" opacity=".96">MS</text>
+  <text x="58" y="74" text-anchor="middle" font-family="Inter,Arial" font-size="54" font-weight="900" fill="#F38020" opacity="1">MS</text>>
 </svg>

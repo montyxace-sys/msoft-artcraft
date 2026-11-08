@@ -48,7 +48,7 @@ body {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 800;
 }
-.brand-name { letter-spacing: -.02em; }
+.brand-name { color: var(--accent); font-weight: 800; letter-spacing: -.02em; }
 .main-nav { display: flex; gap: 18px; flex-wrap: wrap; }
 .main-nav a { color: var(--muted); font-size: 14px; text-decoration: none; }
 .main-nav a:hover { color: var(--text); }

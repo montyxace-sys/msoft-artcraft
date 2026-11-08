@@ -25,7 +25,7 @@
   <!-- bold monogram -->
   <text x="58" y="74" text-anchor="middle"
         font-family="Inter,Arial,sans-serif" font-size="54" font-weight="900"
-        letter-spacing="-3" fill="#ffffff" opacity=".96">MS</text>
+        letter-spacing="-3" fill="#F38020" opacity="1">MS</text>
 
   <!-- corner spark -->
   <path d="M93 28 L106 28 M99.5 21.5 L99.5 34.5" stroke="#F38020" stroke-width="4" stroke-linecap="square"/>
