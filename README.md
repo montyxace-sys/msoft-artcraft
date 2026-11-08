@@ -1,4 +1,4 @@
-# MSoft ArtCraft Landing
+# MSoft Cloud Landing
 
 Landing estática para MSoft, inspirada en ArtCraft, con configuración para Cloudflare Pages y paleta inspirada en Cloudflare.
 
