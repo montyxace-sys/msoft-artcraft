@@ -1,14 +1,14 @@
 :root {
-  --bg: #0b1222;
-  --bg-soft: #0f1b36;
-  --panel: #142541;
-  --panel-2: #192c4f;
-  --line: #263758;
-  --text: #eef4ff;
-  --muted: #a8b4d0;
+  --bg: #ffffff;
+  --bg-soft: #f7fafc;
+  --panel: #ffffff;
+  --panel-2: #f2f6fb;
+  --line: #d8e1ec;
+  --text: #171f33;
+  --muted: #5c6883;
   --accent: #F38020;
   --accent-2: #f89a3b;
-  --ok: #7cf0b4;
+  --ok: #1f8f58;
 }
 
 * { box-sizing: border-box; }
@@ -17,9 +17,7 @@ body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   color: var(--text);
-  background: radial-gradient(900px 500px at 50% -10%, rgba(91,140,255,.12), transparent 60%),
-              radial-gradient(700px 450px at 90% -5%, rgba(155,107,255,.10), transparent 55%),
-              var(--bg);
+  background: linear-gradient(180deg, #f8fafd 0%, #ffffff 56%, #f8fafd 100%);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -35,7 +33,7 @@ body {
 .site-header {
   position: sticky; top: 0; z-index: 50;
   backdrop-filter: blur(18px);
-  background: rgba(7,11,20,.75);
+  background: rgba(255,255,255,.85);
   border-bottom: 1px solid var(--line);
 }
 .header-inner {
@@ -55,8 +53,8 @@ body {
 
 main { padding-bottom: 80px; }
 .section { padding: 84px 0 54px; }
-.section-dark { background: rgba(255,255,255,.022); border-block: 1px solid var(--line); }
-.section-apps { background: rgba(155,107,255,.03); }
+.section-dark { background: rgba(30,51,93,.038); border-block: 1px solid var(--line); }
+.section-apps { background: rgba(243,128,32,.035); }
 
 .eyebrow { color: var(--accent); font-size: 12px; letter-spacing: .24em; text-transform: uppercase; font-weight: 700; margin: 0 0 14px; }
 h1 { font-size: clamp(42px, 7vw, 78px); line-height: .95; margin: 0 0 20px; letter-spacing: -.04em; font-weight: 800; }
@@ -83,10 +81,10 @@ h3 { font-size: 18px; margin: 12px 0 6px; font-weight: 700; }
 .hero-visual { display: grid; place-items: center; }
 .hero-panel {
   width: 100%; aspect-ratio: 4/5; max-height: 430px; border-radius: 26px;
-  background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+  background: linear-gradient(180deg, #ffffff, #f2f6fb);
   border: 1px solid var(--line); padding: 24px;
   display: flex; flex-direction: column; justify-content: space-between;
-  box-shadow: 0 40px 100px rgba(0,0,0,.45);
+  box-shadow: 0 24px 70px rgba(15, 35, 70, .10);
 }
 .hero-row { display: flex; gap: 10px; flex-wrap: wrap; }
 .hero-chip {
