@@ -1,12 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" alt="MSoft Cloud" role="img" aria-label="MSoft Cloud">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="MSoft Cloud">
   <defs>
     <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#F38020"/>
       <stop offset="1" stop-color="#ff5a5a"/>
     </linearGradient>
   </defs>
-  <polygon points="14,8 306,8 306,58 14,58" fill="#ffffff" stroke="#dde6f2" stroke-width="1.5" rx="14"/>
-  <path d="M24 64 L310 18" stroke="url(#lg)" stroke-width="7" stroke-linecap="square" opacity=".92"/>
-  <text x="40" y="48" font-family="Inter,Arial,sans-serif" font-weight="900" font-size="40" fill="#0f172a" letter-spacing="-1">MSoft Cloud</text>
-  <path d="M56 62 L270 62" stroke="url(#lg)" stroke-width="4" stroke-linecap="square" opacity=".8"/>
+
+  <!-- aggressive frame -->
+  <path d="M16 6 L304 6 L316 20 L316 60 L300 74 L16 74 L2 60 L2 20 Z"
+        fill="#10121f" stroke="url(#lg)" stroke-width="4"/>
+
+  <!-- subtle highlight bar -->
+  <rect x="20" y="12" width="280" height="4" fill="url(#lg)" opacity=".85"/>
+
+  <text x="54" y="54" font-family="Inter,Arial,sans-serif" font-weight="900" font-size="42" fill="#ffffff" letter-spacing="-1">MSoft Cloud</text>
 </svg>
