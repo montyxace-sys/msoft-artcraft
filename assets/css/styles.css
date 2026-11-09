@@ -81,10 +81,12 @@ h3 { font-size: 18px; margin: 12px 0 6px; font-weight: 700; }
 .hero-visual { display: grid; place-items: center; }
 .hero-panel {
   width: 100%; aspect-ratio: 4/5; max-height: 430px; border-radius: 26px;
-  background: linear-gradient(180deg, #ffffff, #f2f6fb);
-  border: 1px solid var(--line); padding: 24px;
+  background: linear-gradient(180deg, rgba(4,9,20,.10), rgba(4,9,20,.65)), url("assets/img/hero.jpg") center/cover no-repeat;
+  border: 1px solid rgba(243,128,32,.35); padding: 24px;
   display: flex; flex-direction: column; justify-content: space-between;
-  box-shadow: 0 24px 70px rgba(15, 35, 70, .10);
+  box-shadow: 0 30px 90px rgba(15, 35, 70, .16), 0 0 0 1px rgba(243,128,32,.14);
+  position: relative;
+  overflow: hidden;
 }
 .hero-row { display: flex; gap: 10px; flex-wrap: wrap; }
 .hero-chip {
