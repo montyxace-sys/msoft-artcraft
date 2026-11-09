@@ -41,11 +41,7 @@ body {
   gap: 18px; height: 72px;
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 800; font-size: 18px; }
-.brand-mark {
-  width: 34px; height: 34px; border-radius: 10px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #fff; display: grid; place-items: center; font-size: 14px; font-weight: 800;
-}
+.brand-logo { height: 34px; width: auto; display:block; }
 .brand-name { color: var(--accent); font-weight: 800; letter-spacing: -.02em; }
 .main-nav { display: flex; gap: 18px; flex-wrap: wrap; }
 .main-nav a { color: var(--muted); font-size: 14px; text-decoration: none; }
